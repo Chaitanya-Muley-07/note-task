@@ -17,7 +17,7 @@ This is a simple task management web application that allows users to create, ed
 - **Backend**: Node.js, Express.js
 - **Database**: File System (local storage with `.txt` files)
 
-- ## Deployed on:
+## Deployed on:
 - https://note-task-nxxc.onrender.com
 
 
