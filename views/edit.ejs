@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Tasks</title>
+   
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <div class=" main w-full min-h-screen  text-white bg-zinc-900 p-10 ">
+        <a class="text-blue-500 inline-block mb-10" href="/">go back to home</a>
+        <form action="/edit"method="post">
+            <input class="block rounded-md w-1/4 px-5 py-2 bg-zinc-800 text-zinc-600 outline-none" type="text" name="previous" readonly  placeholder="Previous Name" value="<%= filename %>">
+            <input class="block rounded-md w-1/4 mt-2 px-5 py-2 resize-none bg-zinc-800   outline-none" name="new" placeholder="New Name"></input>
+            <input class="mt-2 bg-yellow-600 px-5 py-2 rounded-md" type="submit"  value="Update Name"> 
+        </form>
+    
+                
+    </div>
+
+  
+    <script src="/javascripts/script.js"></script>
+    
+       
+    
+
+</body>
+</html>
